@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/index.py": {
+      "runtime": "vercel-python@3.9" 
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/index",
+      "schedule": "0 1 * * *" 
+    }
+  ]
+}
+
